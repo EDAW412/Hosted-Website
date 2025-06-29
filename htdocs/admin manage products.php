@@ -6,7 +6,7 @@ if (!isset($_SESSION['staff_role']) || $_SESSION['staff_role'] !== 'admin') {
     exit();
 }
 
-$conn = new mysqli("sql110.infinityfree.com", "if0_39218282", "WaddlePaddle412", "if0_39218282_laezel_marketplace");
+$conn = new mysqli("sql110.infinityfree.com", "if0_39218282", "********", "if0_39218282_laezel_marketplace");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
